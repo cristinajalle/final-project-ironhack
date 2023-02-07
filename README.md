@@ -8,15 +8,15 @@
 
 <!-- Por favor no borrar este elemeno, ayuda al elemento "back to top" -->
 
-<a name="readme-top"></a>
+<!-- <a name="readme-top"></a> -->
 
 <!-- PROJECT LOGO -->
-<br />
+<!-- <br />
 <div align="center">
   <img src="./resources/images/readMe/wu.png" alt="Logo" width="80" height="80">
   <h3 align="center">Circle Landing Agency Website</h3>
   <a href="https://midterm-project.vercel.app/">Visit Website</a>
-</div>
+</div> -->
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -50,15 +50,11 @@
 
 ## Acerca del Proyecto
 
-<img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%">
-
-La sección "sobre el proyecto" en un archivo README es una sección importante que proporciona información general sobre el objetivo y la funcionalidad del proyecto.
-
-En esta sección se puede incluir información como:
+<!-- <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%"> -->
 
 - Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas: HTML, CSS, GIT
-- Funcionalidades principales: Dar estilo y dinamismo a una landing page.
+- Tecnologías utilizadas: HTML, CSS, GIT, 
+- Funcionalidades principales:
 - Instrucciones de instalación y configuración
 - Enlaces a documentación adicional o recursos relacionados con el proyecto
 - Licencia del proyecto
@@ -75,7 +71,7 @@ La sección "construido con" en un archivo README es una sección que proporcion
 En esta sección se puede incluir información como:
 
 - Lenguajes de programación utilizados: JavaScript
-- Frameworks y bibliotecas utilizadas
+- Frameworks y bibliotecas utilizadas: Vue 3
 - Herramientas de desarrollo (IDE, control de versiones, etc): GIT, GITHUB, Visual Studio Code
 - Servicios en la nube utilizados (si corresponde)
 - Otros recursos o tecnologías relacionadas con el proyecto.
@@ -115,23 +111,18 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Three
 
 ###### Jueves 9, Febrero 2023
-- [ ]Registro en la aplicación mediante un proceso de Sign Up,
-- [ ]
-- [ ] 
+- [ ] Registro en la aplicación mediante un proceso de Sign Up,
 
 #### Day Four
 
 ###### Viernes 10 , Febrero 2023
 - [ ] Registro en la aplicación mediante un proceso de Sign Up,
-- [ ]
-- [ ] 
+
 
 #### Day Five
 
 ###### Sábado 11, Febrero 2023
-- [ ] 
-- [ ]
-- [ ] 
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
