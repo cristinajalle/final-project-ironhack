@@ -84,7 +84,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 #### Backlog
 
-- [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion
+<!-- - [ ] Ej - Tarea a completar y mover a su respectivo dia de ejecucion -->
 
 <!-- MODELO:
 - [ ] Tarea no completada
@@ -98,15 +98,17 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 - [x] Set up del GitHub e instalación del vue project
 - [ ] Planificación de la primera semana del  proyecto.
-- [ ] Conectar la aplicacion a Supabase y se guardará toda la información de las tareas y usuarios en esa plataforma.
-- [ ] Repasar conceptos de Vue
+- [x] Conectar la aplicacion a Supabase para guardar toda la información de las tareas y usuarios en esa plataforma.
+- [x] Empezar a trabajar en la Creación de cuenta: Registro en la aplicación mediante un proceso de SignUp,LogIn, LogOut
+    - [x] Crear formulario en SignIn.vue component
 
 
 #### Day Two
 
 ###### Miercoles 8, Febrero 2023
-- [ ] Empezar a trabajar en la Creación de cuenta: Registro en la aplicación mediante un proceso de Sign Up,
-- [ ] Repaso de Vue, componentes
+- [ ] Registro en la aplicación mediante un proceso de SignUp,LogIn, LogOut:
+    - [ ] Verificar si formulario SignIn de ayer funciona.
+- [ ] Leer documentación de Vue Router, Pinia y Composition API: Lifecycle Hooks
 
 #### Day Three
 
@@ -142,7 +144,7 @@ En esta sección se puede incluir información como:
 
 Cristina Jalle - jallecristina@gmail.com
 
-Project Link:
+Project Link: https://github.com/cristinajalle/final-project-ironhack
 
 Presentation Link: [Insert here your presentation link](insert-link-here)
 
