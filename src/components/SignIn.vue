@@ -39,13 +39,16 @@
 <script setup>
 import { ref } from "vue";
 import PersonalRouter from "./PersonalRouter.vue";
-
+import { useRouter } from "vue-router";
+import {useUserStore} from "../stores/user"
 // Route Variables
-const route = "/auth/signup";
-const buttonText = "Sign Up";
-
+const buttonText = "Sign In";
+const redirect = useRouter();
 // Error Message
 const errorMsg = ref("");
+const email = ref("");
+const password = ref("");
+const route = ref("");
 
 // Arrow function to Signin user to supaBase
 const signIn = async () => {

@@ -107,7 +107,10 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Miercoles 8, Febrero 2023
 - [ ] Registro en la aplicación mediante un proceso de SignUp,LogIn, LogOut:
-    - [ ] Verificar si formulario SignIn de ayer funciona.
+    - [x] Verificar si formulario SignIn de ayer funciona.
+    - [x] Hacer LogOut.
+- [ ] Hacer tabla en Supabase.
+    
 - [ ] Leer documentación de Vue Router, Pinia y Composition API: Lifecycle Hooks
 
 #### Day Three
