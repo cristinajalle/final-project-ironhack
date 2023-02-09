@@ -117,8 +117,13 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Three
 
 ###### Jueves 9, Febrero 2023
-- [ ] Hacer Logica de tasks
-- [ ] Empezar a estilar el LogIn
+- [x] Empezar a hacer Logica de tasks:
+  - [ ] Crear task
+  - [ ] Borrar task
+  - [ ] Editar
+  - [ ] Completar
+- [x] Empezar a estilar el LogIn
+- [x] Deploy en Vercel
 
 #### Day Four
 

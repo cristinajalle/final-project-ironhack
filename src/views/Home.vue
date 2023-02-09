@@ -8,12 +8,12 @@
     </div>
     <NewTask />
     <h1>Tasks:</h1>
-    <TaskItem v-for="task in tasks" :key="task.id" :task="task" />
+    <TaskItem v-for="task in tasks" :key="task.id" :task="task" @edit-task="sendTask" />
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onUpdated, ref } from 'vue'
 import { useTaskStore } from "../stores/task";
 import { useRouter } from 'vue-router';
 import Nav from '../components/Nav.vue';
@@ -31,7 +31,20 @@ const getTasks = async() => {
 };
 
 getTasks();
+onUpdated(() => {
+  getTasks();
+}
+);
 
+//funcion para mandar al store supabase
+
+const sendTask = async(editTaskObject) => {
+  await taskStore.editTask(
+    editTaskObject.id,
+    editTaskObject.title,
+    editTaskObject.description
+  );
+};
 </script>
 
 <style></style>
