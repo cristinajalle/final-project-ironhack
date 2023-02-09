@@ -97,7 +97,7 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Martes 7, Febrero 2023
 
 - [x] Set up del GitHub e instalación del vue project
-- [ ] Planificación de la primera semana del  proyecto.
+- [x] Planificación de la primera semana del  proyecto.
 - [x] Conectar la aplicacion a Supabase para guardar toda la información de las tareas y usuarios en esa plataforma.
 - [x] Empezar a trabajar en la Creación de cuenta: Registro en la aplicación mediante un proceso de SignUp,LogIn, LogOut
     - [x] Crear formulario en SignIn.vue component
@@ -106,22 +106,24 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Two
 
 ###### Miercoles 8, Febrero 2023
-- [ ] Registro en la aplicación mediante un proceso de SignUp,LogIn, LogOut:
+- [x] Registro en la aplicación mediante un proceso de SignUp,LogIn, LogOut:
     - [x] Verificar si formulario SignIn de ayer funciona.
-    - [x] Hacer LogOut.
-- [ ] Hacer tabla en Supabase.
+    - [x] Hacer el  LogOut.
+- [x] Hacer tabla tasks en Supabase.
+- [x] Cambiar html de tasks
     
 - [ ] Leer documentación de Vue Router, Pinia y Composition API: Lifecycle Hooks
 
 #### Day Three
 
 ###### Jueves 9, Febrero 2023
-- [ ] Registro en la aplicación mediante un proceso de Sign Up,
+- [ ] Hacer Logica de tasks
+- [ ] Empezar a estilar el LogIn
 
 #### Day Four
 
 ###### Viernes 10 , Febrero 2023
-- [ ] Registro en la aplicación mediante un proceso de Sign Up,
+- [ ] 
 
 
 #### Day Five
