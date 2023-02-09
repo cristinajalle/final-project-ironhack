@@ -118,9 +118,9 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Jueves 9, Febrero 2023
 - [x] Empezar a hacer Logica de tasks:
-  - [ ] Crear task
-  - [ ] Borrar task
-  - [ ] Editar
+  - [x] Crear task
+  - [x] Borrar task
+  - [x] Editar
   - [ ] Completar
 - [x] Empezar a estilar el LogIn
 - [x] Deploy en Vercel
@@ -128,8 +128,11 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Four
 
 ###### Viernes 10 , Febrero 2023
-- [ ] 
-
+- [x] Logica de tasks:
+  - [x] Arreglar editar tarea
+  - [x] Completar
+- [x] Continuar estilos del LogIn
+- [x] Empezar estilos de tasks
 
 #### Day Five
 

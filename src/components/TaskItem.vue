@@ -2,11 +2,12 @@
 <div class="container">
     <h3>{{task.title}}</h3>
     <h3>{{ task.description }}</h3>
-    <button @click="deleteTask">Delete {{task.title}}</button>
+    <button @click="deleteTask">Delete </button>
     <button @click="activateEdit">Edit {{ task.title }}</button>
     <template v-if="editToggle">
         <input type="text">
         <input type="text">
+        <button @click="editSubmit">Save Edit</button>
     </template>
 </div>
 </template>
