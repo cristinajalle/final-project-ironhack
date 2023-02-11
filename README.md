@@ -130,15 +130,16 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Viernes 10 , Febrero 2023
 - [x] Logica de tasks:
   - [x] Arreglar editar tarea: al darle al boto de editar no se sustitutyen los cambios en title y description
-  - [x] Completar
+  
 - [x] Continuar estilos del LogIn
-- [x] Empezar estilos de tasks
+
 
 #### Day Five
 
 ###### Sábado 11, Febrero 2023
-
-
+- [x] Empezar estilos de tasks
+- [x] Logica de tasks:
+  - [x] Completar
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

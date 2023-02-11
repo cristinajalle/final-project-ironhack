@@ -4,6 +4,8 @@
     <h3>{{ task.description }}</h3>
     <button @click="deleteTask">Delete </button>
     <button @click="activateEdit">Edit {{ task.title }}</button>
+    <button v-if="!task.is_complete" @click="completeTask">Complete</button>
+    <button v-if="task.is_complete" @click="uncompleteTask">Uncomplete</button>
     <template v-if="editToggle">
         <input v-model="newTitle" type="text">
         <input v-model="newDescription" type="text">
@@ -47,7 +49,13 @@ const activateEdit= () => {
     taskTitle.value = props.task.title;
     taskDescription.value = props.task.description;
 }
-
+//completar tarea
+const completeTask = async() => {
+    await taskStore.completeTask(props.task.id);
+};
+const uncompleteTask = async() => {
+    await taskStore.uncompleteTask(props.task.id);
+};
 //funcion que manda lo que yo escribo al home-->datbase
 
 const editSubmit = () => {
