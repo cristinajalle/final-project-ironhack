@@ -11,6 +11,15 @@
         <input v-model="newDescription" type="text">
         <button @click="editSubmit">Save Edit</button>
     </template>
+    
+  <Teleport to="body">
+    <!-- use the modal component, pass in the prop -->
+    <modal :show="showModal" @close="showModal = false">
+      <template #header>
+        <h3>custom header</h3>
+      </template>
+    </modal>
+  </Teleport>
 </div>
 </template>
 
@@ -18,6 +27,7 @@
 import { ref } from 'vue';
 import { useTaskStore } from '../stores/task';
 import { supabase } from '../supabase';
+import Modal from "../components/Modal.vue";
 
 const taskStore = useTaskStore();
 const newTitle = ref("");
