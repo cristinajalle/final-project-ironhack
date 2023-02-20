@@ -145,6 +145,30 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Empezar lógica de profile
 - [x] Empezar con estilos de tasks
 
+
+  #### Day Seven
+
+###### Martes 14, Febrero 2023
+- [x] Empezar estilos de NavBar
+- [x] Seguir con estilos de tasks
+
+#### Day Eight
+
+###### Miercoles 15, Febrero 2023
+- [x] Crear componente Modal al borrar la tarea
+
+#### Day Nine
+
+###### Sabado 18, Febrero 2023
+- [x] Continuar estilos de tasks
+- [x] Continuar estilos de Navbar
+
+#### Day Ten
+
+###### Lunes 20, Febrero 2023
+- [ ] Continuar estilos de tasks
+- [ ] Continuar estilos de Navbar
+- [ ] Seguir con lógica del modal al borrar la tarea
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Acerca de mi -->
