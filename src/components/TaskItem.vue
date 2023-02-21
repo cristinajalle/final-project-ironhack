@@ -26,8 +26,10 @@
     </div>
     <div class="modal" v-if="showModal">
         <h2>Are you sure you want to delete this task?</h2>
-        <button @click="deleteTask">Yes, of course!</button>
-        <button @click="showModalToggle">Cancel</button>
+        <div class="modal-button">
+        <button class="button-m" @click="deleteTask">Yes, of course!</button>
+        <button class="button-m" @click="showModalToggle">Cancel</button>
+        </div>
     </div>
 </template>
 

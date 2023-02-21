@@ -8,7 +8,9 @@
     </div> -->
     <NewTask />
     <!-- <h1>Tasks:</h1> -->
+    <div class="task-board">
     <TaskItem v-for="task in tasks" :key="task.id" :task="task" @editTask="sendTask" />
+    </div>
   </div>
   <Footer />
 </template>

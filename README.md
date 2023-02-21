@@ -184,12 +184,15 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ###### Miercoles 22, Febrero 2023
 - [ ] Empezar estilos del modal
+- [ ] Hacer responsive
 
 
 #### Day Thirteen
 
 ###### Jueves 23, Febrero 2023
 - [ ] Hacer responsive
+- [ ] Hacer presentacion
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
