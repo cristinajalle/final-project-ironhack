@@ -7,20 +7,7 @@
     --fontTitle: 'Arial';
     --fontBody: 'Helvetica';
 }
-
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,400&display=swap");
-
-:root {
-  --colorWhite: #ffff;
-  --colorBlack: #231f20;
-  --colorRed: #d52941;
-  --colorOrange: #ff9f1c;
-  --colorGreem: #80ab82;
-  --fontSize-sm: 16px;
-  --fontFamily: "Poppins", sans-serif;
-  --fontTitle: "Arial";
-  --fontBody: "Helvetica";
-} */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600&family=Roboto:wght@100;300;400;700&display=swap");
 
 * {
   margin: 0;
@@ -29,32 +16,17 @@
   background-color: var(--colorBrokenWhite);
 }
 
-body {
+/* body {
   font-family: var(--fontFamily);
   font-size: var(--fontSize-sm);
-}
+} */
 
-/* 
-a {
-    text-decoration: none;
-  } */
-  
-/* a:active {
-    text-decoration: none;
-    color: grey;
-  } */
-/*   
-  
-a:visited {
-    text-decoration: none;
-    color: black;
-  } */
-  
+
 a:hover {
     color: rgb(252, 237, 237);
   }
 
-/* SignIn Component */
+/* SignIn Component *//* SignUp Component */
 .container {
     width: 30%;
     margin: auto;
@@ -65,14 +37,12 @@ a:hover {
     height: 90%; */
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: rgb(196, 206, 216) 0px 20px 30px -10px;  
+    /* box-shadow: rgb(196, 206, 216) 0px 20px 30px -10px;   */
 
 }
-
 .header-title{
     font-weight: 00;
     font-size: 1rem;
-   
 }
   
 div.container span {
@@ -101,15 +71,7 @@ div.container .form-sign-in,
     margin: 8px 0;
     width: 100%;
 }
-/* .form-container-input-icon {
-    position: relative;
-}
-.img-eye {
-    position: absolute;
-    right: 15px;
-    top: 20px;
-} */
-  
+
 .button {
     background-color: #8c1690;
     color: var(--colorWhite);
@@ -126,72 +88,97 @@ div.container .form-sign-in,
     border: none;
   }
 
-/* .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--colorBrokenWhite);;
-    width: 50%;
-    height: 90%;
-    padding: 1.5rem;
-    margin: 1rem auto;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: rgb(196, 206, 216) 0px 20px 30px -10px;  
-} */
-/* 
-.app-logo {
-  border-radius: 0;
-  width: 30%;
-  margin: 1rem 0 0.5rem 0;
-} */
-/* .form-input {
-  margin: 1rem auto;
-} */
 
-/* .sign-header {   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: -3rem 0;
-    align-content: space-around;
-}
-.header-subtitle {
-    font-size: 1rem;
-    width: 80%;
-    margin: -0.5rem 0 1rem;
-}
-
-.go-to-other-sign {
-  font-size: 0.8rem;
-} */
-  
-/* h1 {
-    color: var(--colorRed);
-} */
-
-/* SignUp Component */
 
 /* Nav component */
-nav {
-    background-color: #de2020;
+nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 2rem;
-   
+    justify-content: space-around;
+    padding: 40px 40px;
+    background-color: #f0e9f0;
+    color:  whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3vh;
+    z-index: 3;
 }
-nav ul {
-    list-style: none;
-    padding-inline-start: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
+.link{
+  color:  rgba(17, 28, 47, 1); 
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em ;
+  font-weight: 300;
+  line-height: 1.5em;
+  
+}
+.link:hover{
+  color:#e2178a;
+  transition: 0.3s ease;
 }
 
-nav button{
+.button-log-out{
+  background-color: #8c1690;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1em ;
+  line-height: 1.5em;
+  color:  whitesmoke; 
+  /* border: 2px solid rgba(17, 28, 47, 1); */
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.button-log-out:hover{
+  background-color:#e2178a;
+  color: whitesmoke; 
+  transition: 0.3s ease;
 
 }
+
+
+/*NEW TASK*/
+
+.container-new-task{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.titulo-new-task{
+  margin-top: 15vh;
+  padding: 20px 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.create-task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  margin:auto;
+  margin-top: 2vh;
+  text-align: left;
+  width: 30%;
+  height: 30%;
+  border: 0;
+
+  
+} 
+
+.input-field{
+  border: none;
+}
+
+
+
+
+
 
 /* Home view */
 

@@ -2,10 +2,10 @@
   <div class="wrapper">
     <Nav />
 
-    <div class="content"> 
+    <!-- <div class="content"> 
       <h3>Your account:</h3>
       <router-link to="/account">Account</router-link>
-    </div>
+    </div> -->
     <NewTask />
     <h1>Tasks:</h1>
     <TaskItem v-for="task in tasks" :key="task.id" :task="task" @editTask="sendTask" />
@@ -19,7 +19,7 @@ import { useRouter } from 'vue-router';
 import Nav from '../components/Nav.vue';
 import NewTask from '../components/NewTask.vue';
 import TaskItem from '../components/TaskItem.vue';
-
+import Footer from '../components/Footer.vue';
 const taskStore = useTaskStore();
 
 // Variable para guardar las tareas de supabase

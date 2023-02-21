@@ -1,17 +1,23 @@
 <template>
-    <h1>Add a new Task</h1>
-    <div v-if="showErrorMessage">
-        <p class="error-text">{{ errorMessage }}</p>
-    </div>
-    <div>
-        <div class="input-field">
-            <input type="text" placeholder="Add a Task Title" v-model="name">
+    <div class="container-new-task">
+        <div class="titulo-new-task">
+            <h1>Add a new Task</h1>
+            <h3>Organization is the key to SUCCESS</h3>
         </div>
-        <div class="input-field">
-            <textarea v-model="description" id="textarea" placeholder="Add a Task Description" name="textarea" rows="4" cols="50"></textarea>
-            <!-- <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description"> -->
+
+        <div v-if="showErrorMessage">
+            <p class="error-text">{{ errorMessage }}</p>
         </div>
-        <button @click="addTask" class="button">Add</button>
+
+        <div class="create-task">
+        
+                <input class="input-field" type="text" placeholder="Add a Task Title" v-model="name">
+            
+                <textarea class="input-field" v-model="description" id="textarea" placeholder="Add a Task Description" name="textarea" rows="5" cols="30"></textarea>
+                <!-- <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description"> -->
+
+            <button @click="addTask" class="button">Add</button>
+        </div>
     </div>
 </template>
 

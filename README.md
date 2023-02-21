@@ -166,9 +166,30 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Ten
 
 ###### Lunes 20, Febrero 2023
-- [ ] Continuar estilos de tasks
-- [ ] Continuar estilos de Navbar
+- [x] Continuar estilos de tasks
+- [x] Continuar estilos de Navbar
+- [x] Seguir con lógica del modal al borrar la tarea
+
+#### Day Eleven
+
+###### Martes 21, Febrero 2023
+- [x] acabar create new task
+- [x] Acabar estilos de Navbar
+- [ ] Continuar estilos de tasks- container de nuevo task
 - [ ] Seguir con lógica del modal al borrar la tarea
+
+#### Day Twelve
+
+###### Miercoles 22, Febrero 2023
+- [ ] Acabar estilos container de nuevo task
+- [ ] Acabar lógica del modal al borrar la tarea
+- [ ] Hacer el footer
+
+#### Day Thirteen
+
+###### Jueves 23, Febrero 2023
+- [ ] Hacer responsive
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Acerca de mi -->
