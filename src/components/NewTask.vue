@@ -11,11 +11,10 @@
 
         <div class="create-task">
         
-                <input class="input-field" type="text" placeholder="Add a Task Title" v-model="name">
+            <input class="input-field" type="text" placeholder="Add a Task Title" v-model="name">
             
-                <textarea class="input-field" v-model="description" id="textarea" placeholder="Add a Task Description" name="textarea" rows="5" cols="30"></textarea>
-                <!-- <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description"> -->
-
+            <textarea class="input-field" v-model="description" id="textarea" placeholder="Add a Task Description" name="textarea" rows="5" cols="30"></textarea>
+            <!-- <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description"> -->
             <button @click="addTask" class="button">Add</button>
         </div>
     </div>

@@ -7,9 +7,10 @@
       <router-link to="/account">Account</router-link>
     </div> -->
     <NewTask />
-    <h1>Tasks:</h1>
+    <!-- <h1>Tasks:</h1> -->
     <TaskItem v-for="task in tasks" :key="task.id" :task="task" @editTask="sendTask" />
   </div>
+  <Footer />
 </template>
 
 <script setup>
@@ -45,6 +46,8 @@ const sendTask = async(editTaskObject) => {
     editTaskObject.description
   );
 };
+
+
 </script>
 
 <style></style>

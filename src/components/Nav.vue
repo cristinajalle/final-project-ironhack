@@ -7,7 +7,7 @@
      
     <router-link to="/account" class="link">Your Account</router-link>
     
-    <p>Welcome, user</p>
+    <!-- <p>Welcome, user</p> -->
     <button @click="signOut" class="button-log-out">Log out</button> 
   </nav>
 </template>

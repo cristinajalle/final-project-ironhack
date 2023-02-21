@@ -1,26 +1,34 @@
 <template>
-<div class="container">
-    <h3>{{task.title}}</h3>
-    <h3>{{ task.description }}</h3>
-    <button @click="deleteTask">Delete </button>
-    <button @click="activateEdit">Edit {{ task.title }}</button>
-    <button v-if="!task.is_complete" @click="completeTask">Complete</button>
-    <button v-if="task.is_complete" @click="uncompleteTask">Uncomplete</button>
-    <template v-if="editToggle">
-        <input v-model="newTitle" type="text">
-        <input v-model="newDescription" type="text">
-        <button @click="editSubmit">Save Edit</button>
-    </template>
+    <div class="container-taskitem">
+        <div class="card-taskitem">
+            <!-- <h3>{{task.title}}</h3> -->
+            <h3 :class="props.task.is_complete ? 'done' : 'pending'">
+            {{ task.title }}
+            </h3>
+            <h3 :class="props.task.is_complete ? 'done' : 'pending'">{{ task.description }}
+            </h3>
     
-  <Teleport to="body">
-    <!-- use the modal component, pass in the prop -->
-    <modal :show="showModal" @close="showModal = false">
-      <template #header>
-        <h3>custom header</h3>
-      </template>
-    </modal>
-  </Teleport>
-</div>
+            <div class="button-taskitem">
+                <!-- <button class="button-1" @click="deleteTask">Delete </button> -->
+                <button @click="showModalToggle" class="button-1">Delete</button>
+                <button class="button-1" @click="activateEdit">Edit {{ task.title }}</button>
+                <button class="button-1" v-if="!task.is_complete" @click="completeTask">Complete</button>
+                <button class="button-1" v-if="task.is_complete" @click="uncompleteTask">Uncomplete</button>
+            </div>
+            <template v-if="editToggle">
+                <div class="edit-input">
+                    <input class="input-taskitem" v-model="newTitle" type="text" placeholder="Add a Task Title">
+                    <textarea class="input-taskitem" v-model="newDescription" id="textarea" placeholder="Add a Task Description" name="textarea" rows="5" cols="30"></textarea>
+                    <button class="button-saveedit" @click="editSubmit">Save Edit</button>
+                </div>
+            </template>
+        </div>
+    </div>
+    <div class="modal" v-if="showModal">
+        <h2>Are you sure you want to delete this task?</h2>
+        <button @click="deleteTask">Yes, of course!</button>
+        <button @click="showModalToggle">Cancel</button>
+    </div>
 </template>
 
 <script setup>
@@ -46,6 +54,11 @@ const emit = defineEmits([
 //porque no estamos modificando la variable tasks guardada en Home. Usad el emit para cambiar esto y evitar ningún page refresh.
 const deleteTask = async() => {
     await taskStore.deleteTask(props.task.id);
+};
+
+const showModal = ref(false);
+const showModalToggle = () => {
+  showModal.value = !showModal.value;
 };
 
 //edit tarea
@@ -80,12 +93,22 @@ const editSubmit = () => {
             id: props.task.id,
         };
         emit("editTask", taskEdited);
+        editToggle.value = !editToggle.value;
     }
 };
 
 </script>
 
-<style></style>
+<style>
+.done {
+  text-decoration: line-through;
+}
+
+.pending {
+
+  text-decoration: none;
+}
+</style>
 
 <!--
 **Hints**

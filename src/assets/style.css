@@ -176,9 +176,103 @@ nav{
 }
 
 
+/*TASK-ITEM*/
+
+.card-taskitem{
+  width: 30%;
+  height: 30%;
+  border: 2px solid #8c1690;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 20px 40px 80px 40px;
+  border-radius: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+/* Contendeor de los 3 botones */
+.button-taskitem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.button-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #8c1690;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1em ;
+  line-height: 1.5em;
+  color:  whitesmoke; 
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.button-1:hover{
+  background-color:#e2178a;
+  color: whitesmoke; 
+  transition: 0.3s ease;
+
+}
+
+.edit-input{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: var(--colorBrokenWhite);
+    height: 90%;
+    padding: 1.5rem;
+    border-radius: 8px;
 
 
+}
 
+.input-taskitem {
+  padding: 15px 15px;
+  border: none;
+  background: #f4d7f6;
+  border-radius: 5px;
+  margin: 8px 0;
+  width: 100%;
+}
+.button-saveedit{
+  padding: 15px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 8px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #8c1690;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1em ;
+  line-height: 1.5em;
+  color:  whitesmoke; 
+  /* padding: 5px 10px; */
+  cursor: pointer;
+}
+
+.button-saveedit:hover{
+  background-color:#e2178a;
+  color: whitesmoke; 
+  transition: 0.3s ease;
+
+}
 
 /* Home view */
 

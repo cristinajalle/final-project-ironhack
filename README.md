@@ -175,15 +175,16 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 ###### Martes 21, Febrero 2023
 - [x] acabar create new task
 - [x] Acabar estilos de Navbar
-- [ ] Continuar estilos de tasks- container de nuevo task
-- [ ] Seguir con lógica del modal al borrar la tarea
+- [x] Continuar estilos de tasks- container de nuevo task (taskitem)
+- [x] Crear Footer y estilar
+- [x] arreglar edicion de la tarea, al completar la edicion que desaparezcan los inputs
+- [x] Acabar lógica del modal al borrar la tarea
 
 #### Day Twelve
 
 ###### Miercoles 22, Febrero 2023
-- [ ] Acabar estilos container de nuevo task
-- [ ] Acabar lógica del modal al borrar la tarea
-- [ ] Hacer el footer
+- [ ] Empezar estilos del modal
+
 
 #### Day Thirteen
 
