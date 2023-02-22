@@ -1,14 +1,14 @@
 <template>
   <nav>
     <!-- <PersonalRouter :route="route" :buttonText="buttonText" class="logo-link"/> -->
-    <router-link to="/" class="link">Home</router-link>
+    <router-link to="/" class="link">HOME</router-link>
   
-    <router-link to="/" class="link">Task Manager</router-link>
+    <router-link to="/" class="link">TASK MANAGER</router-link>
      
-    <router-link to="/account" class="link">Your Account</router-link>
+    <router-link to="/account" class="link">YOUR ACCOUNT</router-link>
     
     <!-- <p>Welcome, user</p> -->
-    <button @click="signOut" class="button-log-out">Log out</button> 
+    <button @click="signOut" class="button-log-out">LOG OUT</button> 
   </nav>
 </template>
 

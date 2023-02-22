@@ -53,30 +53,33 @@
 <!-- <img src="./resources/images/readMe/screenshot.png" alt="Logo" width="100%" height="50%"> -->
 
 - Una descripción breve del proyecto y su propósito
-- Tecnologías utilizadas: HTML, CSS, GIT, 
-- Funcionalidades principales:
-- Instrucciones de instalación y configuración
-- Enlaces a documentación adicional o recursos relacionados con el proyecto
-- Licencia del proyecto
-- Contribuciones de las personas en el proyecto.
 
-En resumen, la sección "sobre el proyecto" es una excelente manera de brindar a los usuarios y contribuidores una visión general del proyecto y proporcionarles toda la información necesaria para comenzar a trabajar con él.
+- Tecnologías utilizadas: HTML, CSS, GIT, Javascript, Vue.js, Supabase, Vercel.
+- Funcionalidades principales:
+
+  - Creación de cuenta: los usuarios podrán registrarse en la aplicación mediante un proceso de Sign Up, iniciar sesión con Log In y cerrar sesión con Log Out.
+  - Gestión de tareas: los usuarios podrán crear, editar, marcar como completadas o desmarcar, y eliminar tareas.
+  - Estilo único: se creará un solo archivo de estilo (assets/style.css) y se insertará correctamente en main.js para tener acceso a las clases y los ids de los componentes.
+  - Responsive design: la página será responsive y tendrá al menos dos versiones: mobile y desktop.
+  - Despliegue: la aplicación será desplegada en Vercel.
+  
+- Instrucciones de instalación y configuración:
+
+  - Almacenamiento de datos: la aplicación estará conectada a Supabase y se guardará toda la información de las tareas y usuarios en esa plataforma.
+  - Gestión del estado: se usarán las stores de Pinia para conectarse con el backend y controlar el estado de la aplicación.
+  - Navegación: se utilizará Vue Router para navegar por la página sin tener que hacer un refresh.
+  - Despliegue: la aplicación será desplegada en Vercel.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Construido Con
 
-La sección "construido con" en un archivo README es una sección que proporciona información sobre las tecnologías y herramientas utilizadas para desarrollar el proyecto.
-
-En esta sección se puede incluir información como:
-
 - Lenguajes de programación utilizados: JavaScript
-- Frameworks y bibliotecas utilizadas: Vue 3
+- Frameworks y bibliotecas utilizadas: Vue.js 3
 - Herramientas de desarrollo (IDE, control de versiones, etc): GIT, GITHUB, Visual Studio Code
-- Servicios en la nube utilizados (si corresponde)
-- Otros recursos o tecnologías relacionadas con el proyecto.
+- Servicios en la nube utilizados (si corresponde).
 
-En resumen, la sección "construido con" es una excelente manera de brindar a los usuarios y contribuidores una compresión de las tecnologías y herramientas utilizadas para desarrollar el proyecto, esto ayuda a entender mejor el proyecto y a los desarrolladores a contribuir de manera efectiva.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
