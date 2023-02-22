@@ -3,7 +3,8 @@
   <template>
 
   <div class="container">
-    <h3 class="header-title">Log In</h3>
+    <h1 class="taskapp">TaskApp</h1>
+    <!-- <h3 class="header-title">Log In</h3> -->
     <form @submit.prevent="signIn" class="form-sign-in">
       <div class="form">
         <div class="form-input">

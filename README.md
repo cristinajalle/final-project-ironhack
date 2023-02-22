@@ -139,14 +139,14 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 - [x] Logica de tasks:
   - [x] Completar
 
-  #### Day Six
+#### Day Six
 
 ###### Lunes 13, Febrero 2023
 - [x] Empezar lógica de profile
 - [x] Empezar con estilos de tasks
 
 
-  #### Day Seven
+#### Day Seven
 
 ###### Martes 14, Febrero 2023
 - [x] Empezar estilos de NavBar
@@ -183,9 +183,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Twelve
 
 ###### Miercoles 22, Febrero 2023
-- [ ] Empezar estilos del modal
+- [ ] Empezar y acabar estilos del modal
 - [ ] Hacer responsive
-
 
 #### Day Thirteen
 
@@ -200,12 +199,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 
 ## Acerca
 
-La sección "sobre mí" en un archivo README es una sección que proporciona información sobre el desarrollador o equipo detrás del proyecto.
-
-En esta sección se puede incluir información como:
-
 - Nombre y datos de contacto de la desarrolladora: Cristina Jalle
-- Información sobre experiencia laboral o académica relacionada con el proyecto: Diseño UX
+- Información sobre experiencia laboral o académica relacionada con el proyecto: Product Designer, UX Design.
 
 <!-- En resumen, la sección "sobre mí" es una excelente manera de brindar a los usuarios y contribuidores una idea de quién está detrás del proyecto y cómo pueden ponerse en contacto con ellos si tienen preguntas o comentarios. Es una buena manera de establecer una conexión con la comunidad de desarrolladores y una forma de mostrar la transparencia en el proyecto. -->
 
@@ -221,15 +216,10 @@ Presentation Link: [Insert here your presentation link](insert-link-here)
 
 ## agradecimientos
 
-La sección "agradecimientos" en un archivo README es una sección que proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
+Se proporciona reconocimiento a las personas o instituciones que ayudaron en el desarrollo del proyecto.
 
-En esta sección se puede incluir información como:
-
-- Agradecimientos a los profesores Aleix, Diego y Jarko por su infinita paciencia y su buen humor.
-- Agradecimientos a instituciones o organizaciones que proporcionaron recursos: StackOverflow, YoutuBe, W3 school, MDN
-- Enlaces a proyectos o recursos relacionados que fueron útiles para el desarrollo del proyecto:
-
-En resumen, la sección "agradecimientos" es una excelente manera de agradecer a las personas o instituciones que ayudaron en el desarrollo del proyecto. Esta sección también puede ser útil para dar crédito a los recursos o proyectos relacionados que fueron útiles durante el desarrollo.
+- Agradecimientos a los profesores Aleix, Diego y Jarko por su infinita paciencia y su buen humor, así como a todos los compañeros del bootcamp.
+- Agradecimientos a instituciones o organizaciones que proporcionaron recursos: StackOverflow, YoutuBe, W3 school, MDN.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -239,9 +229,9 @@ La sección "desafío técnico" aunque no es convencional en un proyecto profesi
 
 En esta sección se puede incluir información como:
 
-- Problemas técnicos específicos que se encontraron durante el desarrollo del proyecto:
-- Soluciones implementadas para superar estos desafíos: 
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua: 
+- Problemas que se encontraron durante el desarrollo del proyecto:
+- Desconocimiento del framework Vue y su curva de aprendizaje.
+- Aspectos del proyecto que aún son un desafío o que requieren mejora continua: El estilo de la app, se seguirá mejorando. 
 - Recomendaciones para futuros desarrolladores que trabajen en el proyecto:
 
 En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
@@ -257,4 +247,3 @@ En esta sección se puede incluir información como:
 - Soluciones implementadas para corregir el error: 
 - Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro:
 
-En resumen, la sección "grande error" es una forma de ser transparente sobre los errores cometidos durante el desarrollo del proyecto. También puede ser útil para otros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y cómo se abordaron.
