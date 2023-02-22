@@ -29,30 +29,28 @@ a:hover {
     margin: auto;
     text-align: center;
     align-items: center;
-    background-color: var(--colorBrokenWhite);;
-    /* width: 50%;
-    height: 90%; */
+    background-color: var(--colorBrokenWhite);
     padding: 1.5rem;
     border-radius: 8px;
     /* box-shadow: rgb(196, 206, 216) 0px 20px 30px -10px;   */
 
 }
-.header-title{
-    font-weight: 00;
-    font-size: 1rem;
+
+.taskapp{
+  font-weight: 200;
 }
   
 
   
-div.form {
+/* div.form {
     width: 75%;
-}
+} */
   
 .form-sign-in {
     margin-top: 2em;
 }
   
-div.container .form-sign-in{
+.form-sign-in{
     display: flex;
     justify-content: center;
 }
@@ -344,10 +342,11 @@ nav{
 .link{
   display: none;
 }
-div.container .form-sign-in{
-  display: flex;
-  justify-content: center;
+
+.container{
+  width: 100%;
 }
+
 .input-field {
   padding: 15px 15px;
   border: none;
