@@ -355,6 +355,18 @@ nav{
   margin: 8px 0;
   width: 100%;
 }
+.create-task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  margin:auto;
+  margin-top: 2vh;
+  text-align: left;
+  width: 20rem;
+  height: 30%;
+  border: 0;
+} 
 .modal{
   position: fixed;
   display: flex;
@@ -377,7 +389,9 @@ display: flex;
 gap: 10px;
 margin-top: 20px;
 }
-
+.modal-text{
+  text-align: center;
+}
 .footer-container{
   display: none;
 }
