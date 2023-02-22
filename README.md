@@ -183,8 +183,8 @@ En resumen, la sección "construido con" es una excelente manera de brindar a lo
 #### Day Twelve
 
 ###### Miercoles 22, Febrero 2023
-- [ ] Empezar y acabar estilos del modal
-- [ ] Hacer responsive
+- [x] Empezar y acabar estilos del modal
+- [x] Hacer responsive
 
 #### Day Thirteen
 

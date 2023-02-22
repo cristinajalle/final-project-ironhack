@@ -1,7 +1,7 @@
 <template>
     <div class="container-new-task">
         <div class="titulo-new-task">
-            <h1>Add a new Task</h1>
+            <h1>Add a New Task</h1>
             <h3>Organization is the key to SUCCESS</h3>
         </div>
 
