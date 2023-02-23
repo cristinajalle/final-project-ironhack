@@ -211,7 +211,7 @@ Cristina Jalle - jallecristina@gmail.com
 
 Project Link: https://github.com/cristinajalle/final-project-ironhack
 
-Presentation Link: [https://www.canva.com/design/DAFbS32MQPY/Y0na4IQPl-LX-Wh0i6YTeg/edit?utm_content=DAFbS32MQPY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](insert-link-here)
+Presentation Link:(https://www.canva.com/design/DAFbS32MQPY/9ijzI6P_Wg53d45sgWTvrQ/view?utm_content=DAFbS32MQPY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,6 +234,7 @@ Se proporciona reconocimiento a las personas o instituciones que ayudaron en el 
 
 
 ## Grande Error
+
 
 - Descripción detallada del error cometido: No desglosar mejor en pequeñas tareas la realización de la lógica de crear, editar, completar y eliminar una tarea en la app.
 - Consecuencias del error: Ralentización, desorganización, mal entendimiento del framework.
