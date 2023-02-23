@@ -11,7 +11,7 @@
             <div class="button-taskitem">
                 <!-- <button class="button-1" @click="deleteTask">Delete </button> -->
                 <button @click="showModalToggle" class="button-1">Delete</button>
-                <button class="button-1" @click="activateEdit">Edit {{ task.title }}</button>
+                <button class="button-1" @click="activateEdit">Edit</button>
                 <button class="button-1" v-if="!task.is_complete" @click="completeTask">Complete</button>
                 <button class="button-1" v-if="task.is_complete" @click="uncompleteTask">Uncomplete</button>
             </div>

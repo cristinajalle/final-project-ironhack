@@ -2,7 +2,7 @@
     <div class="container-new-task">
         <div class="titulo-new-task">
             <h1>Organization is the key to SUCCESS</h1>
-            <h3>Add a New Task</h3>
+            <h3>Add a New Task:</h3>
             
         </div>
 
@@ -16,7 +16,7 @@
             
             <textarea class="input-field" v-model="description" id="textarea" placeholder="Add a Task Description" name="textarea" rows="5" cols="30"></textarea>
             <!-- <input type="text" placeholder="Add a Task Description - Look up Kendrick Lamar's FEAR album on spotify and listen to the whole album." v-model="description"> -->
-            <button @click="addTask" class="button">Add</button>
+            <button @click="addTask" class="button">ADD</button>
         </div>
     </div>
 </template>

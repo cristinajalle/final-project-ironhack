@@ -211,7 +211,7 @@ Cristina Jalle - jallecristina@gmail.com
 
 Project Link: https://github.com/cristinajalle/final-project-ironhack
 
-Presentation Link: [Insert here your presentation link](insert-link-here)
+Presentation Link: [https://www.canva.com/design/DAFbS32MQPY/Y0na4IQPl-LX-Wh0i6YTeg/edit?utm_content=DAFbS32MQPY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](insert-link-here)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
