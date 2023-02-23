@@ -192,8 +192,8 @@
 #### Day Thirteen
 
 ###### Jueves 23, Febrero 2023
-- [ ] Hacer responsive
-- [ ] Hacer presentacion
+- [x] Hacer responsive
+- [x] Hacer presentacion
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -230,19 +230,12 @@ Se proporciona reconocimiento a las personas o instituciones que ayudaron en el 
 
 - Problemas que se encontraron durante el desarrollo del proyecto:
 - Desconocimiento del framework Vue y su curva de aprendizaje.
-- Aspectos del proyecto que aún son un desafío o que requieren mejora continua: El estilo de la app, se seguirá mejorando. 
-- Recomendaciones para futuros desarrolladores que trabajen en el proyecto:
+- Aspectos del proyecto que aún son un desafío o que requieren mejora continua: El estilo de la app, se seguirá mejorando. Realización de la página d eprofile y un cronómetro.
 
-En resumen, la sección "desafío técnico" es una excelente manera de brindar a los usuarios y contribuidores una idea de los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto, y cómo se abordaron. Esta sección también puede ser útil para futuros desarrolladores que trabajen en el proyecto, ya que les brinda información valiosa sobre problemas potenciales y soluciones para superarlos.
 
 ## Grande Error
 
-La sección "grande error" en un archivo README es una sección opcional que proporciona información sobre los errores importantes cometidos durante el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
-- Descripción detallada del error cometido: 
-- Consecuencias del error: 
-- Soluciones implementadas para corregir el error: 
-- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro:
+- Descripción detallada del error cometido: No desglosar mejor en pequeñas tareas la realización de la lógica de crear, editar, completar y eliminar una tarea en la app.
+- Consecuencias del error: Ralentización, desorganización, mal entendimiento del framework.
+- Lecciones aprendidas y recomendaciones para evitar errores similares en el futuro: Focalizarme en leer y entender el código; y después escribir código.
 
