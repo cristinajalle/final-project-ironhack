@@ -1,6 +1,12 @@
 <template>
   <nav>
     <!-- <PersonalRouter :route="route" :buttonText="buttonText" class="logo-link"/> -->
+    <router-link to="/" class="link-menu"
+      ><img
+        class="logo"
+        src="../assets/icons/logo.png"
+        alt="FemLogo"
+      /></router-link>
     <router-link to="/" class="link">HOME</router-link>
   
     <router-link to="/" class="link">TASK MANAGER</router-link>

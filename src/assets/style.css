@@ -23,6 +23,10 @@
 }
 
 
+/* .wrapper{
+background-image: url("../assets/icons/fondo.png");
+
+} */
 
 
 a:hover {
@@ -142,7 +146,9 @@ nav{
 
 }
 
-
+.logo{
+  width: 70px;
+}
 /*NEW TASK*/
 
 .container-new-task{
@@ -353,6 +359,9 @@ nav{
   z-index: 3;
 }
 .link{
+  display: none;
+}
+.logo{
   display: none;
 }
 

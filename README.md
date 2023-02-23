@@ -209,7 +209,7 @@
 
 Cristina Jalle - jallecristina@gmail.com
 
-Project Link: https://github.com/cristinajalle/final-project-ironhack
+Project Link: https://final-project-ironhack-cristinajalle.vercel.app/
 
 Presentation Link:(https://www.canva.com/design/DAFbS32MQPY/9ijzI6P_Wg53d45sgWTvrQ/view?utm_content=DAFbS32MQPY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 

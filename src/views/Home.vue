@@ -1,5 +1,7 @@
 <template>
   <div class="wrapper">
+   
+    
     <Nav />
 
     <!-- <div class="content"> 
@@ -7,7 +9,7 @@
       <router-link to="/account">Account</router-link>
     </div> -->
     <NewTask />
-    <!-- <h1>Tasks:</h1> -->
+    
     <div class="task-board">
     <TaskItem v-for="task in tasks" :key="task.id" :task="task" @editTask="sendTask" />
     </div>
