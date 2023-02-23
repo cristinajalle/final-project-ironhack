@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;700;900&display=swap');
 :root {
     --colorWhite: #ffffff;
     --colorBlack: #000000;
     --colorRed: red;
-    --fontSize-sm: 16px;
+    --fontSize-sm: 20px;
     --fontFamily: 'Arial, Helvetica, sans-serif';
     --fontTitle: 'Arial';
     --fontBody: 'Helvetica';
@@ -11,7 +12,7 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;700;900&display=swap');
+
 
 * {
   margin: 0;
@@ -42,7 +43,8 @@ a:hover {
 }
 
 .taskapp{
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 2rem;
   font-family: 'Darker Grotesque', sans-serif;
   color: #000000;
 }
@@ -96,7 +98,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     padding: 40px 40px;
-    background-color: #f0e9f0;
+    background-color: black;
     color:  whitesmoke;
     position: fixed;
     top: 0;
@@ -106,23 +108,23 @@ nav{
 }
     
 .link{
-  color:  rgba(17, 28, 47, 1); 
+  color:white; 
   text-decoration: none;
   font-family: 'Darker Grotesque', sans-serif;
-  font-size: 1em ;
-  font-weight: 300;
+  font-size: 1.5em ;
+  font-weight: 700;
   line-height: 1.5em;
   
 }
 .link:hover{
   color:#e2178a;
-  transition: 0.3s ease;
+  transition: 0.2s ease;
 }
 
 .button-log-out{
   background-color: #8c1690;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 1em ;
   line-height: 1.5em;
   color:  whitesmoke; 
@@ -150,10 +152,11 @@ nav{
 }
 
 .titulo-new-task{
-  margin-top: 15vh;
+  margin-top: 10vh;
   padding: 20px 40px;
   width: 100%;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .create-task {

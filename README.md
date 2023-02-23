@@ -228,10 +228,6 @@ Se proporciona reconocimiento a las personas o instituciones que ayudaron en el 
 
 ## Desafío Técnico
 
-La sección "desafío técnico" aunque no es convencional en un proyecto profesional, en nuestro curso dependemos de esta sección en un archivo README para proporcionar información sobre los desafíos técnicos que se enfrentaron durante el desarrollo del proyecto.
-
-En esta sección se puede incluir información como:
-
 - Problemas que se encontraron durante el desarrollo del proyecto:
 - Desconocimiento del framework Vue y su curva de aprendizaje.
 - Aspectos del proyecto que aún son un desafío o que requieren mejora continua: El estilo de la app, se seguirá mejorando. 

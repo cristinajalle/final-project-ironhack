@@ -1,8 +1,9 @@
 <template>
     <div class="container-new-task">
         <div class="titulo-new-task">
-            <h1>Add a New Task</h1>
-            <h3>Organization is the key to SUCCESS</h3>
+            <h1>Organization is the key to SUCCESS</h1>
+            <h3>Add a New Task</h3>
+            
         </div>
 
         <div v-if="showErrorMessage">
