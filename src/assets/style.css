@@ -23,17 +23,14 @@
 }
 
 
-/* .wrapper{
-background-image: url("../assets/icons/fondo.png");
 
-} */
 
 
 a:hover {
     color:#e2178a;
   }
 
-/* SignIn Component *//* SignUp Component */
+/* SignIn Component */
 .container {
     width: 30%;
     margin: auto;
@@ -53,7 +50,9 @@ a:hover {
   color: #000000;
 }
   
-
+.container p{
+  font-size: 20px;
+}
   
 /* div.form {
     width: 75%;
@@ -75,6 +74,7 @@ a:hover {
     border-radius: 5px;
     margin: 8px 0;
     width: 100%;
+    font-size: 20px;
 }
 
 .button {
@@ -87,6 +87,8 @@ a:hover {
     cursor: pointer;
     border: none;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
 }
   
 .button:hover {
@@ -94,6 +96,20 @@ a:hover {
     border: none;
   }
 
+/* SignUp Component */
+
+.header-description{
+    font-size: 20px;
+  }
+.input-field-label{
+  font-size: 20px;
+}
+.sign-up-link{
+  font-size: 20px;
+}
+.note{
+  font-size: 20px;
+}
 
 
 /* Nav component */

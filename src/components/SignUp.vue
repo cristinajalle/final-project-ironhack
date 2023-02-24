@@ -44,7 +44,7 @@
           />
         </div>
         <button class="button" type="submit">Sign Up</button>
-        <p>
+        <p class="note">
           Have an account?
           <PersonalRouter
             :route="route"

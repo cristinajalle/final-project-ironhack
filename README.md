@@ -115,7 +115,7 @@
 - [x] Hacer tabla tasks en Supabase.
 - [x] Cambiar html de tasks
     
-- [ ] Leer documentación de Vue Router, Pinia y Composition API: Lifecycle Hooks
+- [x] Leer documentación de Vue Router, Pinia y Composition API: Lifecycle Hooks
 
 #### Day Three
 
@@ -124,7 +124,6 @@
   - [x] Crear task
   - [x] Borrar task
   - [x] Editar
-  - [ ] Completar
 - [x] Empezar a estilar el LogIn
 - [x] Deploy en Vercel
 
