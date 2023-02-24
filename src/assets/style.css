@@ -165,6 +165,11 @@ nav{
 .logo{
   width: 70px;
 }
+
+.logo:hover{
+  width: 75px;
+  
+}
 /*NEW TASK*/
 
 .container-new-task{
@@ -380,6 +385,8 @@ nav{
 .logo{
   display: none;
 }
+.button-log-out{
+margin: 45px 80px 45px 0px;}
 
 .container{
   width: 100%;
